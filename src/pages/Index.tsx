@@ -35,7 +35,7 @@ const Index = () => {
           animate={{ opacity: ageVerified ? 1 : 0, y: ageVerified ? 0 : 20 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-pink-600">
+          <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">
             Welcome to Your Premium Experience
           </h1>
           
@@ -54,8 +54,8 @@ const Index = () => {
                 animate={{ opacity: ageVerified ? 1 : 0, y: ageVerified ? 0 : 20 }}
                 transition={{ duration: 0.5, delay: 0.3 + (i * 0.1) }}
               >
-                <div className="w-12 h-12 bg-pink-500/20 rounded-lg flex items-center justify-center mb-4">
-                  <div className="w-6 h-6 bg-pink-500 rounded-md"></div>
+                <div className="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mb-4">
+                  <div className="w-6 h-6 bg-blue-500 rounded-md"></div>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Premium Feature {i}</h3>
                 <p className="text-gray-400">
@@ -66,7 +66,7 @@ const Index = () => {
           </div>
           
           <motion.button
-            className="bg-pink-500 hover:bg-pink-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/20"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: ageVerified ? 1 : 0, y: ageVerified ? 0 : 20 }}
             transition={{ duration: 0.5, delay: 0.6 }}

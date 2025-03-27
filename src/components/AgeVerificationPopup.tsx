@@ -29,7 +29,7 @@ const AgeVerificationPopup: React.FC<AgeVerificationPopupProps> = ({ onConfirm }
         transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
       >
         <div className="px-6 py-6 text-center">
-          <h2 className="text-pink-500 text-3xl font-bold mb-3">Warning 18+</h2>
+          <h2 className="text-blue-500 text-3xl font-bold mb-3">Warning 18+</h2>
           
           <p className="text-white text-base font-medium mb-2">This site is for adults only!</p>
           <p className="text-white text-base font-medium mb-4">It contains AI-generated adult content.</p>
@@ -42,19 +42,19 @@ const AgeVerificationPopup: React.FC<AgeVerificationPopupProps> = ({ onConfirm }
           
           <div className="flex justify-center space-x-3 mb-6">
             <button 
-              className="modal-link-button text-pink-500 border border-pink-500/30 rounded-md px-4 py-2 text-sm font-medium"
+              className="modal-link-button text-blue-500 border border-blue-500/30 rounded-md px-4 py-2 text-sm font-medium"
               onClick={() => window.open('#', '_blank')}
             >
               Terms of Service
             </button>
             <button 
-              className="modal-link-button text-pink-500 border border-pink-500/30 rounded-md px-4 py-2 text-sm font-medium"
+              className="modal-link-button text-blue-500 border border-blue-500/30 rounded-md px-4 py-2 text-sm font-medium"
               onClick={() => window.open('#', '_blank')}
             >
               Privacy Notice
             </button>
             <button 
-              className="modal-link-button text-pink-500 border border-pink-500/30 rounded-md px-4 py-2 text-sm font-medium"
+              className="modal-link-button text-blue-500 border border-blue-500/30 rounded-md px-4 py-2 text-sm font-medium"
               onClick={() => window.open('#', '_blank')}
             >
               Cookies
@@ -62,7 +62,7 @@ const AgeVerificationPopup: React.FC<AgeVerificationPopupProps> = ({ onConfirm }
           </div>
           
           <button 
-            className="modal-button w-full bg-pink-500 text-white font-bold py-3 px-6 rounded-md hover:bg-pink-600 transition-colors"
+            className="modal-button w-full bg-blue-500 text-white font-bold py-3 px-6 rounded-md hover:bg-blue-600 transition-colors"
             onClick={onConfirm}
           >
             I am over 18 - Continue
